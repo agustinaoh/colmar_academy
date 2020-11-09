@@ -1,0 +1,56 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+
+/* Header section */
+
+header{
+    position: fixed;
+    z-index: 1;
+    height: 64px;
+    width: 100%;        /*          ////// AAAAHHHHHHH MIL HORAS X ESTA MERDE! */
+    margin: auto;
+    align-items: center;
+    background-color: white;
+    margin: 0 24px;
+    font-size: 20px;
+}
+
+#logo img {
+margin-left: 24px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+    /* text-align: right; */
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;               /* importante! NO ESTABA */
+}
+
+nav span {
+    /* display: inline-block; */
+    padding: 0 8px;            /*para separarlos, generar espacio*/
+}
+
+/* Main section */
+.main {
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
+
+/* Header section */
+
+
