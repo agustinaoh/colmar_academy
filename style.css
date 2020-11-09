@@ -4,6 +4,9 @@ body {
     color: #525252;
     max-width: 1300px;
     justify-content: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.4;
 }
 
 .flex-container {
@@ -11,17 +14,44 @@ body {
     flex-wrap: wrap;
 }
 
+h1 {
+    font-family: Raleway;
+    font-weight: 900;
+    font-size: 44px;
+    letter-spacing: 0.3;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 800;
+    /* letter-spacing: 0.3; */
+    line-height: 0.6;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.3;
+    line-height: 1.4;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
 /* Header section */
 
-header{
+header {
     position: fixed;
     z-index: 1;
     height: 64px;
     width: 1300px;        /*          ////// AAAAHHHHHHH MIL HORAS X ESTA MERDE! */
     align-items: center;
     background-color: white;
-    font-size: 20px;
+    font-size: 24px;
     color: #202020;
+    font-weight: 600;
 }
 
 #logo img {
@@ -45,24 +75,11 @@ nav span {
 
 /* Main section */
 
-h1{
-    font-family: Raleway;
-    font-weight: 900;
-    font-size: 44px;
-    letter-spacing: 0.3;
-}
-
-h2{
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 0.3;
-    line-height: 1.4;
-
-}
-
 .main {
    padding-top: 64px;
 }
+
+/* Start section */
 
 .start {
     margin: auto;
@@ -74,7 +91,7 @@ h2{
 .start img {
     height: 550px;
     width: auto;
-    padding: 32px 24px;
+    padding: 24px 32px;
 }
 
 .start .side-text {
@@ -92,9 +109,48 @@ h2{
     /* display: inline-block;         si quisiera que el button se ajiuste al texto   */
 }
 
-#button a{
+#button a {
     color: white;
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 0.8px;
+}
+
+/* Information section */
+
+/* main */
+
+.information {
+    height: 760px;
+    background-color: red;
+    width: 1300px;
+    /* display: inline; */
+}
+
+.flex-container .main {
+    width: 60%;
+}
+
+.information img {
+    height: 400px;
+    width: 700px;
+    object-fit: cover;
+    padding-left: 40px;
+    padding-right: 50px;
+}
+
+/* side */
+
+.flex-container .side {
+    /* border-left: silver, solid, 1px; */
+}
+
+#item a,
+#item-2 a {
+    color: rgb(87, 164, 228);
+    font-weight: 700;
+}
+
+#item-2 {
+    background-color: silver;
 }
