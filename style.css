@@ -1,12 +1,13 @@
 body {
     font-family: Helvetica, sans-serif;
-    margin: 0;
+    margin: auto;
     color: #202020;
+    max-width: 1300px;
+    justify-content: center;
 }
 
 .flex-container {
     display: flex;
-    /* justify-content: space-between; */
     flex-wrap: wrap;
 }
 
@@ -16,11 +17,9 @@ header{
     position: fixed;
     z-index: 1;
     height: 64px;
-    width: 98%;        /*          ////// AAAAHHHHHHH MIL HORAS X ESTA MERDE! */
-    margin: auto;
+    width: 1300px;        /*          ////// AAAAHHHHHHH MIL HORAS X ESTA MERDE! */
     align-items: center;
     background-color: white;
-    margin: 0 24px;
     font-size: 20px;
     color: #202020;
 }
@@ -46,11 +45,37 @@ nav span {
 
 /* Main section */
 .main {
-    padding-top: 69px;
-    opacity: 0.9;
-    margin: auto;
+   padding-top: 64px;
 }
 
-/* Header section */
+.start {
+    margin: auto;
+    height: 630px;
+    background-color: lightgray;
+    align-items: center;
+}
 
+.start img {
+    height: 550px;
+    width: auto;
+    padding: 32px 24px;
+}
 
+.start .side-text {
+    padding-left: 24px;
+}
+
+#button {
+    background-color: lightseagreen;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    /* display: inline-block;         si quisiera que el button se ajiuste al texto   */
+}
+
+#button a{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
