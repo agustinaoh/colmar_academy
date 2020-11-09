@@ -1,6 +1,7 @@
 body {
     font-family: Helvetica, sans-serif;
     margin: 0;
+    color: #202020;
 }
 
 .flex-container {
@@ -15,12 +16,13 @@ header{
     position: fixed;
     z-index: 1;
     height: 64px;
-    width: 100%;        /*          ////// AAAAHHHHHHH MIL HORAS X ESTA MERDE! */
+    width: 98%;        /*          ////// AAAAHHHHHHH MIL HORAS X ESTA MERDE! */
     margin: auto;
     align-items: center;
     background-color: white;
     margin: 0 24px;
     font-size: 20px;
+    color: #202020;
 }
 
 #logo img {
@@ -30,24 +32,22 @@ margin-left: 24px;
 a{
     text-decoration: none;
     font-size: 16px;
-    /* text-align: right; */
+    color: #202020;
 }
 
 nav {
     text-align: right;
-    flex-grow: 1;               /* importante! NO ESTABA */
+    flex-grow: 1;
 }
 
 nav span {
-    /* display: inline-block; */
-    padding: 0 8px;            /*para separarlos, generar espacio*/
+    padding: 0 8px;
 }
 
 /* Main section */
 .main {
     padding-top: 69px;
     opacity: 0.9;
-    width: 1200px;
     margin: auto;
 }
 
