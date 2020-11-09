@@ -1,7 +1,7 @@
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: Raleway, sans-serif;
     margin: auto;
-    color: #202020;
+    color: #414141;
     max-width: 1300px;
     justify-content: center;
 }
@@ -44,6 +44,18 @@ nav span {
 }
 
 /* Main section */
+
+h1{
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: 700;
+}
+
 .main {
    padding-top: 64px;
 }
@@ -76,6 +88,6 @@ nav span {
 #button a{
     color: white;
     font-size: 20px;
-    font-weight: 300;
-    letter-spacing: 0.5px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
 }
