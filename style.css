@@ -1,7 +1,7 @@
 body {
     font-family: Raleway, sans-serif;
     margin: auto;
-    color: #414141;
+    color: #525252;
     max-width: 1300px;
     justify-content: center;
 }
@@ -47,13 +47,17 @@ nav span {
 
 h1{
     font-family: Raleway;
-    font-weight: 800;
-    font-size: 50px;
+    font-weight: 900;
+    font-size: 44px;
+    letter-spacing: 0.3;
 }
 
 h2{
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 700;
+    letter-spacing: 0.3;
+    line-height: 1.4;
+
 }
 
 .main {
@@ -75,6 +79,9 @@ h2{
 
 .start .side-text {
     padding-left: 24px;
+    width: 380px;
+    /* align-content: center;
+    align-items: center; */
 }
 
 #button {
