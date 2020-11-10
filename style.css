@@ -124,8 +124,30 @@ nav span {
 
 .blog-box {
     display: flex;
+    width: 1300px;
+    height: 800px;
+
+    /* position: ;                      maybe?  */
 }
 
+/* main article */
+
+.blog-box .article {
+    background-color: rgb(250, 231, 250);
+    padding: 40px;
+    flex: 1;
+    width: 80%;
+    /* border-right-style: 1px solid black; */
+}
+
+.blog-box .article-picture {
+    width: 100%;
+    margin: auto;
+}
+
+/* side articles */
+
+/* general */
 .blog-box-side{
     display: inline-flexbox;
     /* flex-direction: column; */
@@ -135,13 +157,7 @@ nav span {
     color: tomato;
 }
 
-.blog-box .article {
-    background-color: thistle;
-    margin: .1em;
-    padding: .3em;
-    flex: 1;
-}
-
+/* each article */
 .blog-box .side-article {
     background-color: navajowhite;
     margin: .1em;
@@ -159,6 +175,11 @@ nav span {
 }
 
 .blog-box-side .side-picture {
-    width: 10px;
+    width: 400px;
+    float: left;
 
+}
+
+.blog-box-side .side-content {
+    display: inline;
 }
