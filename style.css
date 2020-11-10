@@ -7,6 +7,8 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.4;
+    box-sizing: border-box;
+    display: flex;
 }
 
 .flex-container {
@@ -118,39 +120,45 @@ nav span {
 
 /* Information section */
 
-/* main */
+/* blog-box */
 
-.information {
-    height: 760px;
-    background-color: red;
-    width: 1300px;
-    /* display: inline; */
+.blog-box {
+    display: flex;
 }
 
-.flex-container .main {
-    width: 60%;
+.blog-box-side{
+    display: inline-flexbox;
+    /* flex-direction: column; */
 }
 
-.information img {
-    height: 400px;
-    width: 700px;
-    object-fit: cover;
-    padding-left: 40px;
-    padding-right: 50px;
+.blog-box-side a {
+    color: tomato;
 }
 
-/* side */
-
-.flex-container .side {
-    /* border-left: silver, solid, 1px; */
+.blog-box .article {
+    background-color: thistle;
+    margin: .1em;
+    padding: .3em;
+    flex: 1;
 }
 
-#item a,
-#item-2 a {
-    color: rgb(87, 164, 228);
-    font-weight: 700;
+.blog-box .side-article {
+    background-color: navajowhite;
+    margin: .1em;
+    padding: .3em;
+    border-radius: 3px;
+    flex: 1;
 }
 
-#item-2 {
-    background-color: silver;
+.blog-box .side-article-gray {
+    background-color: steelblue;
+    margin: .1em;
+    padding: .3em;
+    border-radius: 3px;
+    flex: 1;
+}
+
+.blog-box-side .side-picture {
+    width: 10px;
+
 }
